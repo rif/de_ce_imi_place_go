@@ -1,0 +1,48 @@
+De ce îmi place GO
+Uneltele mele favorite
+23 Jan 2020
+Tags: go, tools, frameworks
+
+Radu Ioan Fericean
+Consultant, Liber profesionist
+radu@fericean.ro
+https://github.com/rif
+
+* Cum am ajuns sa folosesc GO (2011)
+
+Concurenti:
+
+- Java, C++, C#, Python, Erlang, Scala
+- Nu eram incantat de raportul calitate pret
+- Exista ceva nou?
+
+Concurenti:
+
+- D si Go (Rust Nim, Clojure fie erau total necunoscute fie nu existau)
+
+** Subsection
+
+- bullets
+- more bullets
+- a bullet with
+
+*** Sub-subsection
+
+Some More text
+
+  Preformatted text
+  is indented (however you like)
+
+Further Text, including invocations like:
+
+#.code x.go /^func main/,/^}/
+#.play y.go
+#.image image.jpg
+#.background image.jpg
+#.iframe http://foo
+#.link http://foo label
+#.html file.html
+#.caption _Gopher_ by [[https://www.instagram.com/reneefrench/][Renée French]]
+
+
+Again, more text
