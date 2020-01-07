@@ -10,30 +10,98 @@ https://github.com/rif
 
 * Cum am ajuns sa folosesc GO (2011)
 
-Concurenti:
+Old school:
 
-- Java, C++, C#, Python, Erlang, Scala
+- C/C++, Java, C#, Python, Erlang, Scala
 - Nu eram incantat de raportul calitate pret
 - Exista ceva nou?
 
-Concurenti:
+New shcool:
 
-- D si Go (Rust Nim, Clojure fie erau total necunoscute fie nu existau)
+- D si Go (Rust, Nim, Kotlin sau Clojure erau fie necunoscute, fie nu existau)
 
-** Subsection
+* Ce cautam
 
-- bullets
-- more bullets
-- a bullet with
+- viteza de executie (ideal compilat)
+- minimalism (ca C dar nu C)
+- Python dar nu interpretat
 
-*** Sub-subsection
+* Mediul de lucru
 
-Some More text
+- Linux (yay)
+- Arch on development, Ubuntu for servers
+- i3wm / sway (wzayland)
+- zsh (zplugin, zplug, zgen)
+- chezmoi
+- gopass
+- Taskwarrior
+- ranger (nnn)
 
-  Preformatted text
-  is indented (however you like)
+* Editor si devtools
 
-Further Text, including invocations like:
+- Emacs (Centaur)
+- lsp-mode si gopls
+- goimports
+- gorename
+- gotests
+- gomodifytags
+- fillstruct
+- delve
+- go-impl
+
+* Deployment
+
+- Tasks
+- Ansible
+- Influx TIC (Prometheus, ELK, Grafana)
+- Docker
+- Vagrant
+- goreleaser
+- go.mod (dep, glide)
+
+* Testare si logging
+
+- standard logging for 99% of tests
+- ory/dockertest
+- zerolog
+- zap
+
+* Web frameworks
+
+- Echo (gin, negroni, martini, beego, revel)
+- Vue
+- Vuetify
+- websockets (gobwas / ws)
+
+* Mobile
+
+- client/server
+- WebView / vue
+- cordova
+
+* GUI (desktop)
+
+- Electron
+- QT
+- GTK
+- fyne (incomplete)
+
+* Baze de date
+
+- storm
+- bolt
+- elasticsearch
+- gorm, sqlx
+
+* Other
+
+- NATS
+- NSQ
+- Ristretto (cache)
+- JSON (msgpack,gob,protocol buffers)
+- gjson
+- Caddy
+- Restic
 
 #.code x.go /^func main/,/^}/
 #.play y.go
@@ -43,6 +111,3 @@ Further Text, including invocations like:
 #.link http://foo label
 #.html file.html
 #.caption _Gopher_ by [[https://www.instagram.com/reneefrench/][Renée French]]
-
-
-Again, more text
