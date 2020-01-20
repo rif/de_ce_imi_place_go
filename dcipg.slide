@@ -1,48 +1,47 @@
-De ce îmi place GO
-Uneltele mele favorite
+Why I like GO
+My current stack
 23 Jan 2020
 Tags: go, tools, frameworks
 
 Radu Ioan Fericean
-Consultant, Liber profesionist
+Freelance Consultant
 radu@fericean.ro
 https://github.com/rif
 
-* Cum am ajuns sa folosesc GO (2011)
+* How did I come to use GO (2011)
 
 Old school:
 
 - C/C++, Java, C#, Python, Erlang, Scala
-- Nu eram incantat de raportul calitate pret
-- Exista ceva nou?
+- Not very excited about quality/price ratio
+- Is there something new?
 
 New shcool:
 
-- D si Go (Rust, Nim, Kotlin sau Clojure erau fie necunoscute, fie nu existau)
+- D and Go (Rust, Nim, Kotlin or Clojure were either unknown or did not exist at all)
 
-* Ce cautam
+* What I was looking for
 
-- viteza de executie (ideal compilat)
-- minimalism (ca C dar nu C)
-- Python dar nu interpretat
+- execution speed (compiled is better)
+- minimalism (like C but not C)
+- Python without the interpreter
 
-* Mediul de lucru
+* Working environment
 
-- Linux (yay)
+- Linux
 - Arch on development, Ubuntu for servers
-- i3wm / sway (wzayland)
-- zsh (zplugin, zplug, zgen)
+- i3wm / sway (wayland)
+- zsh (zinit, zgen, zplug)
 - chezmoi
 - gopass
 - Taskwarrior
-- ranger (nnn)
+- ranger (nnn,lf)
 
-* Editor si devtools
+* Editor and devtools
 
 - Emacs (Centaur)
-- lsp-mode si gopls
+- lsp-mode and gopls
 - goimports
-- gorename
 - gotests
 - gomodifytags
 - fillstruct
@@ -59,7 +58,7 @@ New shcool:
 - goreleaser
 - go.mod (dep, glide)
 
-* Testare si logging
+* Testing and logging
 
 - standard logging for 99% of tests
 - ory/dockertest
@@ -68,7 +67,7 @@ New shcool:
 
 * Web frameworks
 
-- Echo (gin, negroni, martini, beego, revel)
+- Echo (gin, negroni, martini, beego, revel, ...)
 - Vue
 - Vuetify
 - websockets (gobwas / ws)
@@ -86,10 +85,9 @@ New shcool:
 - GTK
 - fyne (incomplete)
 
-* Baze de date
+* Databases
 
-- storm
-- bolt
+- storm (bolt)
 - elasticsearch
 - gorm, sqlx
 
