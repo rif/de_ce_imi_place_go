@@ -57,8 +57,9 @@ New shcool:
 - Vagrant
 - goreleaser
 - go.mod (dep, glide)
+- GIT
 
-* Testing and logging
+* Testing and Logging
 
 - standard logging for 99% of tests
 - ory/dockertest
@@ -85,7 +86,7 @@ New shcool:
 - Electron
 - QT (GTK)
 - fyne (incomplete)
-.play gui.go
+.play gui.go /^import/,/^}/
 
 * Databases
 
