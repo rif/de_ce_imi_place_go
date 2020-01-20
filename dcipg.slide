@@ -64,6 +64,7 @@ New shcool:
 - ory/dockertest
 - zerolog
 - zap
+.play logging.go
 
 * Web frameworks
 
@@ -71,6 +72,7 @@ New shcool:
 - Vue
 - Vuetify
 - websockets (gobwas / ws)
+.code webframework.go
 
 * Mobile
 
@@ -81,9 +83,9 @@ New shcool:
 * GUI (desktop)
 
 - Electron
-- QT
-- GTK
+- QT (GTK)
 - fyne (incomplete)
+.play gui.go
 
 * Databases
 
@@ -93,16 +95,15 @@ New shcool:
 
 * Other
 
-- NATS
-- NSQ
+- NATS (NSQ)
 - Ristretto (cache)
 - JSON (msgpack,gob,protocol buffers)
 - gjson
 - Caddy
 - Restic
 
-#.code x.go /^func main/,/^}/
-#.play y.go
+
+#.code logging.go /^func main/,/^}/
 #.image image.jpg
 #.background image.jpg
 #.iframe http://foo
