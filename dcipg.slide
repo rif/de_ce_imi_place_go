@@ -4,7 +4,7 @@ My current stack
 Tags: go, tools, frameworks
 
 Radu Ioan Fericean
-Freelance Consultant
+Freelance Developer
 radu@fericean.ro
 https://github.com/rif
 
@@ -93,6 +93,7 @@ New shcool:
 - storm (bolt)
 - elasticsearch
 - gorm, sqlx
+.code storm.go
 
 * Other
 
@@ -102,6 +103,9 @@ New shcool:
 - gjson
 - Caddy
 - Restic
+
+* GJSON
+.code gjson.go
 
 
 #.code logging.go /^func main/,/^}/
