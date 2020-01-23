@@ -16,7 +16,7 @@ Old school:
 - Not very excited about quality/price ratio
 - Is there something new?
 
-New shcool:
+New school:
 
 - D and Go (Rust, Nim, Kotlin or Clojure were either unknown or did not exist at all)
 
@@ -35,7 +35,7 @@ New shcool:
 - chezmoi
 - gopass
 - Taskwarrior
-- ranger (nnn,lf)
+- ranger (nnn, lf)
 
 * Editor and devtools
 
@@ -63,22 +63,20 @@ New shcool:
 
 - standard logging for 99% of tests
 - ory/dockertest
-- zerolog
-- zap
+- zerolog (zap)
 .play logging.go
 
 * Web frameworks
 
 - Echo (gin, negroni, martini, beego, revel, ...)
-- Vue
-- Vuetify
+- Vue / Vuetify
 - websockets (gobwas / ws)
 .code webframework.go
 
 * Mobile
 
 - client/server
-- WebView / vue
+- WebView / vue / vuetify
 - cordova
 
 * GUI (desktop)
